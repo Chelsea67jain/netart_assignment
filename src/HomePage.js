@@ -12,7 +12,7 @@ export default function HomePage() {
   const matches = useMediaQuery(theme.breakpoints.up("sm"));
 
   return (
-    <div>
+    <div style={{height:'100vh'}}>
       {matches ? (
         <Grid container spacing={1}>
           <Grid
